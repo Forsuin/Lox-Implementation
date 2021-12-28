@@ -1,11 +1,11 @@
-package com.lox;
+package com.craftinginterpreters.lox;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.lox.TokenType.*;
+import static com.craftinginterpreters.lox.TokenType.*;
 
 //This is the Scanner class from the Crafting Interpreters book, I've renamed it to avoid confusion with Java's scanner
 class Lexer
