@@ -1,0 +1,36 @@
+
+    Grammar Notation    |   Code Representation
+------------------------|---------------------------
+    Terminal            |   Code to match nad consume a token
+    Non-terminal        |   Call to the rule's function
+    |                   |   if or switch statement
+    * or +              |   while or for loop
+    ?                   |   if statement
+
+
+program        → statement* EOF ;
+
+statement      → exprStmt | printStmt ;
+
+exprStmt       → expression ";" ;
+printStmt      → "print" expression ";" ;
+
+expression     → equality ;
+equality       → comparison ( ( "!=" | "==" ) comparison )* ;
+comparison     → term ( ( ">" | ">=" | "<" | "<=" ) term )* ;
+term           → factor ( ( "-" | "+" ) factor )* ;
+factor         → unary ( ( "/" | "*" ) unary )* ;
+unary          → ( "!" | "-" ) unary
+               | primary ;
+primary        → NUMBER | STRING | "true" | "false" | "nil"
+               | "(" expression ")" ;
+
+
+
+    Lox type        |    Java Representation
+--------------------------------------------
+    Any Lox Value   |    Object
+    nil             |    null
+    Boolean         |    Boolean
+    number          |    Double
+    string          |    String
