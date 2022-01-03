@@ -1,4 +1,4 @@
-Left off at Global Variables 8.2
+Left off at Chapter 11, Resolving and Binding
 
 
     Grammar Notation    |   Code Representation
@@ -12,12 +12,17 @@ Left off at Global Variables 8.2
 
 program        → statement* EOF ;
 
-declaration    → varDecl | statement;
+declaration    → varDecl | statement | funDecl;
+
+funDecl        → "fun" function ;
+function       → IDENTIFIER "(" parameters? ")" block ;
+
+parameters     → IDENTIFIER ("," IDENTIFIER )* ;
 
 varDecl        → "var" IDENTIFIER ("=" expression)? ";" ;
 
-statement      → exprStmt | forStmt | ifStmt | printStmt | whileStmt |
-                 block ;
+statement      → exprStmt | forStmt | ifStmt | printStmt | returnStmt |
+                 whileStmt | block ;
 
 forStmt        → "for" "(" (varDecl | exprStmt | ";")
                  expression? ";"
@@ -26,8 +31,11 @@ ifStmt         → "if" "(" statement ")" statement
                  ("else" statement)? ;
 exprStmt       → expression ";" ;
 printStmt      → "print" expression ";" ;
+returnStmt     → "return" expression? ";" ;
 whileStmt      → "while" "(" expression ")" statement ;
 block          → "{" declaration* "}" ;
+
+arguments      → expression ("," expression)* ;
 
 expression     → assignment ;
 assignment     → IDENTIFIER "=" assignment
@@ -40,6 +48,7 @@ term           → factor ( ( "-" | "+" ) factor )* ;
 factor         → unary ( ( "/" | "*" ) unary )* ;
 unary          → ( "!" | "-" ) unary
                | primary ;
+call           → primary ( "(" arguments? ")" )* ;
 primary        → NUMBER | STRING | "true" | "false" | "nil"
                | "(" expression ")" | IDENTIFIER ;
 
