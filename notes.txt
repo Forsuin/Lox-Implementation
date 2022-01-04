@@ -1,4 +1,4 @@
-Left off at Chapter 11, Resolving and Binding
+Left off at Chapter 12, Classes
 
 
     Grammar Notation    |   Code Representation
