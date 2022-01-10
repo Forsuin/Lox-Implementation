@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jlox:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04c7557a-2539-4069-86f4-59ad848e62c6" name="Changes" comment="Added inheritance to classes (only single inheritance). Finished Part 2 of Crafting Interpreters." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="22kZW1C1PXEp1HdA3KhlcCh1NOa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.craftinginterpreters.lox" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\lox" />
+      <recent name="C:\dev\lox\jlox" />
+      <recent name="C:\dev\lox\src\com\craftinginterpreters\lox" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JAR Application.jlox.jar">
+    <configuration name="GenerateAST" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.craftinginterpreters.tool.GenerateAST" />
+      <module name="lox" />
+      <option name="PROGRAM_PARAMETERS" value="src/com/craftinginterpreters/lox" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.craftinginterpreters.lox.Lox" />
+      <module name="lox" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jlox.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/jlox/out/artifacts/jlox_jar/jlox.jar" />
+      <option name="PROGRAM_PARAMETERS" value="jlox/test.lox" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.GenerateAST" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.jlox.jar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.jlox.jar" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04c7557a-2539-4069-86f4-59ad848e62c6" name="Changes" comment="" />
+      <created>1640383576753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640383576753</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1640553321443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640553321443</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added class to represent expressions in an Abstract Syntax Tree. Added tool to generate an AST.">
+      <created>1640565061301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640565061301</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added class to represent expressions in an Abstract Syntax Tree. Added tool to generate an AST. Package name updated">
+      <created>1640714673187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640714673187</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added a parser, an interpreter, and support for runtime errors. Removed unnecessary import from Expr.java">
+      <created>1640825770723</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640825770723</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added statements, expression and print, and set up build system to output jar file. Added test.txt which contains Lox code for testing. Notes also included">
+      <created>1640837722341</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640837722341</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added statements, expression and print, and set up build system to output jar file. Added test.txt which contains Lox code for testing. Notes also included">
+      <created>1640837814975</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640837814975</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added support for both global variables and local variables">
+      <created>1640902569393</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640902569394</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added if statements, for-loops and while-loops, and logical AND/OR">
+      <created>1641097405660</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641097405660</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added ability to define functions, native functions, return statements, and local functions and closures">
+      <created>1641173593267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641173593267</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fixed scope error where closures would refer to new definitions of variables of the same name. Added a resolver to check that that variable usage refers to the correct variable.">
+      <created>1641265275826</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641265275826</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added classes with support for fields, methods, constructors, and the &quot;this&quot; keyword">
+      <created>1641675848129</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1641675848129</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added inheritance to classes (only single inheritance). Finished Part 2 of Crafting Interpreters.">
+      <created>1641778104515</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641778104515</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Added class to represent expressions in an Abstract Syntax Tree. Added tool to generate an AST." />
+    <MESSAGE value="Added class to represent expressions in an Abstract Syntax Tree. Added tool to generate an AST. Package name updated" />
+    <MESSAGE value="Added a parser, an interpreter, and support for runtime errors. Removed unnecessary import from Expr.java" />
+    <MESSAGE value="Added statements, expression and print, and set up build system to output jar file." />
+    <MESSAGE value="Added statements, expression and print, and set up build system to output jar file. Added test.txt which contains Lox code for testing. Notes also included" />
+    <MESSAGE value="Added support for both global variables and local variables" />
+    <MESSAGE value="Added if statements, for-loops and while-loops, and logical AND/OR" />
+    <MESSAGE value="Added ability to define functions, native functions, return statements, and local functions and closures" />
+    <MESSAGE value="Fixed scope error where closures would refer to new definitions of variables of the same name. Added a resolver to check that that variable usage refers to the correct variable." />
+    <MESSAGE value="Added classes with support for fields, methods, constructors, and the &quot;this&quot; keyword" />
+    <MESSAGE value="Added inheritance to classes (only single inheritance). Finished Part 2 of Crafting Interpreters." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added inheritance to classes (only single inheritance). Finished Part 2 of Crafting Interpreters." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

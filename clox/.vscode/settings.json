@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.asm": "retroasm_65c02",
+    "string.h": "c"
+  }
+}
