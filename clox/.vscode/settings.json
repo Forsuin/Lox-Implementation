@@ -1,6 +1,12 @@
 {
-  "files.associations": {
-    "*.asm": "retroasm_65c02",
-    "string.h": "c"
-  }
+    "files.associations": {
+        "*.asm": "retroasm_65c02",
+        "memory.h": "c",
+        "stdbool.h": "c",
+        "stddef.h": "c",
+        "chunk.h": "c",
+        "common.h": "c",
+        "value.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
 }

@@ -1,24 +1,18 @@
-CC := gcc
-CFLAGS := -g -Wall
+BUILD_DIR := build
+CC = gcc
 
-# globs
-SRCS := $(wildcard src/*.c)
-HDRS := $(wildcard src/*.h)
-OBJS := $(patsubst src/%.c,out/%.o,$(SRCS))
+default: debug
 
-TARGET := clox
-
-$(TARGET): $(OBJS) $(HDRS) makefile
-		@if not exist out mkdir out
-		$(CC) $(CFLAGS) $(OBJS) -o $(TARGET)
-
-# compile an object based on source and headers
-out/%.o: src/%.c $(HDRS) makefile
-		@if not exist out mkdir out
-		$(CC) $(CFLAGS) -c $< -o $@
-
-# tidy up
 clean:
-		@rmdir /s /q "./out"
+	@ rm -rf $(BUILD_DIR)
+	@ rm -rf clox
+	@ rm -rf cloxd
 
+# Compile a debug build of clox.
+debug:
+	@ $(MAKE) -f util/c.make NAME=cloxd MODE=debug SOURCE_DIR=src
 
+# Compile the C interpreter.
+clox:
+	@ $(MAKE) -f util/c.make NAME=clox MODE=release SOURCE_DIR=src
+	@ cp build/clox clox # For convenience, copy the interpreter to the top level.
