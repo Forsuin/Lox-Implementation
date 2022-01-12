@@ -14,7 +14,7 @@ else
 	CFLAGS := -std=c99
 endif
 
-CFLAGS += -Wall -Wextra -Werror -Wno-unused-parameter
+CFLAGS += -Wall -Wextra -Werror -Wno-unused-parameter -Wno-unused-function
 
 # Mode configuration.
 ifeq ($(MODE),debug)
